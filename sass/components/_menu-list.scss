@@ -1,0 +1,55 @@
+.menu-list {
+    display: flex;
+    margin-left: 93px;
+}
+
+
+.adress-item:not(:last-child) {
+    margin-right: 50px;
+
+    &:focus,
+    &:hover {
+    fill: var(--accent-color);
+}
+}
+
+
+.menu-link {
+position: relative;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--header-text-color);
+
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
+transition: color 250ms var(--timing-function);
+
+&:focus,
+&:hover {
+    color: var(--accent-color);
+}
+}
+
+.underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    transform: translateY(1px);
+
+    display: block;
+
+    width: 100%;
+    height: 4px;
+
+    background-color: var(--accent-color);
+    border-radius: 2px;
+}

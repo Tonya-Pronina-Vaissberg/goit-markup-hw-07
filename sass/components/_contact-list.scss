@@ -1,0 +1,67 @@
+.contact-list {
+    display: flex; 
+    margin-left: auto;
+}
+
+.mail {
+display: inline-flex;
+color: var(--primary-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+padding-top: 32px;
+padding-bottom: 32px;
+align-items: center;
+
+transition: color 250ms var(--timing-function);
+
+&:focus .contact-icon,
+&:hover .contact-icon {
+    fill: var(--accent-color);
+}
+
+&:focus,
+&:hover {
+    color: var(--accent-color);
+}
+
+}
+
+.contact-icon {
+margin-right: 10px;
+fill: var(--primary-text-color);
+
+transition: fill 250ms var(--timing-function);
+}
+ 
+
+.phone {
+display: inline-flex;
+color: var(--primary-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+padding-top: 32px;
+padding-bottom: 32px;
+align-items: center;
+
+transition: color 250ms var(--timing-function);
+
+&:focus .contact-icon,
+&:hover .contact-icon {
+    fill: var(--accent-color);
+}
+
+&:focus,
+&:hover {
+    color: var(--accent-color);
+}
+}

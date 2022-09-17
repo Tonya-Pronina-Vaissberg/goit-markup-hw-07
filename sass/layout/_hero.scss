@@ -1,0 +1,33 @@
+.hero-section {
+    background-color: rgba(196, 196, 196, 1);
+    text-align: center;
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    }
+    
+.overlay {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+.headline {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    margin-bottom: 40px;
+    }
