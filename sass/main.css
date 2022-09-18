@@ -171,14 +171,14 @@ body {
   margin-left: 93px;
 }
 
-.adress-item:not(:last-child) {
+.menu-list__item:not(:last-child), .contact-list__item:not(:last-child) {
   margin-right: 50px;
 }
-.adress-item:not(:last-child):focus, .adress-item:not(:last-child):hover {
+.menu-list__item:not(:last-child):focus, .menu-list__item:not(:last-child):hover, .contact-list__item:not(:last-child):focus, .contact-list__item:not(:last-child):hover {
   fill: var(--accent-color);
 }
 
-.menu-link {
+.menu-list__link {
   position: relative;
   font-family: "Roboto";
   font-style: normal;
@@ -192,11 +192,11 @@ body {
   padding-bottom: 32px;
   transition: color 250ms var(--timing-function);
 }
-.menu-link:focus, .menu-link:hover {
+.menu-list__link:focus, .menu-list__link:hover {
   color: var(--accent-color);
 }
 
-.underline::after {
+.menu-list__link--underline::after {
   content: "";
   position: absolute;
   left: 0;
@@ -214,7 +214,7 @@ body {
   margin-left: auto;
 }
 
-.mail {
+.contact-list__link {
   display: inline-flex;
   color: var(--primary-text-color);
   font-family: "Roboto";
@@ -228,20 +228,20 @@ body {
   align-items: center;
   transition: color 250ms var(--timing-function);
 }
-.mail:focus .contact-icon, .mail:hover .contact-icon {
+.contact-list__link:focus .contact-list__icon, .contact-list__link:hover .contact-list__icon {
   fill: var(--accent-color);
 }
-.mail:focus, .mail:hover {
+.contact-list__link:focus, .contact-list__link:hover {
   color: var(--accent-color);
 }
 
-.contact-icon {
+.contact-list__icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
   transition: fill 250ms var(--timing-function);
 }
 
-.phone {
+.contact-list__link {
   display: inline-flex;
   color: var(--primary-text-color);
   font-family: "Roboto";
@@ -255,10 +255,10 @@ body {
   align-items: center;
   transition: color 250ms var(--timing-function);
 }
-.phone:focus .contact-icon, .phone:hover .contact-icon {
+.contact-list__link:focus .contact-list__icon, .contact-list__link:hover .contact-list__icon {
   fill: var(--accent-color);
 }
-.phone:focus, .phone:hover {
+.contact-list__link:focus, .contact-list__link:hover {
   color: var(--accent-color);
 }
 

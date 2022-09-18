@@ -3,7 +3,7 @@
     margin-left: auto;
 }
 
-.mail {
+.contact-list__link {
 display: inline-flex;
 color: var(--primary-text-color);
 font-family: 'Roboto';
@@ -19,8 +19,8 @@ align-items: center;
 
 transition: color 250ms var(--timing-function);
 
-&:focus .contact-icon,
-&:hover .contact-icon {
+&:focus .contact-list__icon,
+&:hover .contact-list__icon {
     fill: var(--accent-color);
 }
 
@@ -31,7 +31,7 @@ transition: color 250ms var(--timing-function);
 
 }
 
-.contact-icon {
+.contact-list__icon {
 margin-right: 10px;
 fill: var(--primary-text-color);
 
@@ -39,7 +39,7 @@ transition: fill 250ms var(--timing-function);
 }
  
 
-.phone {
+.contact-list__link {
 display: inline-flex;
 color: var(--primary-text-color);
 font-family: 'Roboto';
@@ -55,8 +55,8 @@ align-items: center;
 
 transition: color 250ms var(--timing-function);
 
-&:focus .contact-icon,
-&:hover .contact-icon {
+&:focus .contact-list__icon,
+&:hover .contact-list__icon {
     fill: var(--accent-color);
 }
 

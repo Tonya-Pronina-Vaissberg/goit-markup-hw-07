@@ -4,7 +4,7 @@
 }
 
 
-.adress-item:not(:last-child) {
+.menu-list__item:not(:last-child), .contact-list__item:not(:last-child) {
     margin-right: 50px;
 
     &:focus,
@@ -14,7 +14,7 @@
 }
 
 
-.menu-link {
+.menu-list__link {
 position: relative;
 
 font-family: 'Roboto';
@@ -37,7 +37,7 @@ transition: color 250ms var(--timing-function);
 }
 }
 
-.underline::after {
+.menu-list__link--underline::after {
     content: "";
     position: absolute;
     left: 0;
